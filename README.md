@@ -14,6 +14,14 @@
 A sophisticated, production-ready sales forecasting system that combines **Prophet**, **LSTM Neural Networks**, and **XGBoost** with comprehensive model explainability through **SHAP** analysis.
 
 ---
+## 📊 Dashboard Preview
+![Dashboard](./screenshots/dashboard.png)
+
+## 🔮 Forecasting Example
+![Forecasting](./screenshots/forecasting.png)
+
+## 📈 Evaluation & Explainability
+![Evaluation](./screenshots/evaluation.png)
 
 ## 📁 Project Structure
 
@@ -25,13 +33,14 @@ AI-Powered-Sales-Forecasting-Dashboard/
 │   └── external/                  # External data sources
 ├── 🖼️ screenshots/
 │   ├── 01_dashboard_overview.png  # Main dashboard interface
+/   /---02_sidebar_controls.png
 │   ├── 03_datapreview.png        # Data preview and engineering
 │   ├── 04_prophet_forecast.png    # Prophet forecasting results
 │   ├── 06_lstm_forecast.png       # LSTM neural network predictions
 │   ├── 07_combined_prophet_lstm.png # Model comparison
 │   ├── 08_rolling_backtest_table.png # Cross-validation results
 │   ├── 09_shap_summary_plot.png   # SHAP explainability analysis
-│   └── 11_xgboost_feature_importance.png # XGBoost + SHAP
+│   └── 10_xgboost_feature_importance.png # XGBoost + SHAP
 ├── 🔧 src/
 │   ├── models/
 │   │   ├── prophet_model.py       # Facebook Prophet implementation
@@ -296,6 +305,16 @@ mypy src/
 
 </div>
 ```
+##  Contributing  
+Contributions, issues, and feature requests are welcome!
+
+##  Contact  
+- GitHub: [karan-sharma-aiml](https://github.com/karan-sharma-aiml)  
+- LinkedIn: [Karan Sharma](https://www.linkedin.com/in/karan-sharma-167957271)
+
+<div align="center">
+  ⭐ Star this repository if it helped you! ⭐  
+</div>
 
 ***
 
