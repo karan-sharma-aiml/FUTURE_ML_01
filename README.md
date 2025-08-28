@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Mast 🔥 ab main tujhe ek **GitHub-ready README.md** de raha hoon jo **Future Interns guidelines** ke according hai.
 Tu isse `FUTURE_ML_01/README.md` me daal de aur bas screenshots aur LinkedIn link update kar dena.
 
@@ -152,3 +153,6 @@ streamlit run streamlit_sales_forecast.py
 
 This project is licensed under the MIT License.
 
+=======
+Repository for Future Interns Machine Learning Internship - Task 1: AI-Powered Sales Forecasting Dashboard.
+>>>>>>> 2c785f616e873659b84fef6a91ab51ae4029e5ec
