@@ -279,7 +279,6 @@ mypy src/
 *B.Tech CSE AI/ML Student (2nd Year)*  
 *CGC University, Mohali*
 
-📧 **Connect**: [LinkedIn](https://www.linkedin.com/in/karan-sharma-167957271)  
 🎓 **Specialization**: Artificial Intelligence & Machine Learning  
 💡 **Focus Areas**: Time Series Analysis, Deep Learning, Explainable AI
 
