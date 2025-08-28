@@ -14,14 +14,6 @@
 A sophisticated, production-ready sales forecasting system that combines **Prophet**, **LSTM Neural Networks**, and **XGBoost** with comprehensive model explainability through **SHAP** analysis.
 
 ---
-## 📊 Dashboard Preview
-![Dashboard](./screenshots/dashboard.png)
-
-## 🔮 Forecasting Example
-![Forecasting](./screenshots/forecasting.png)
-
-## 📈 Evaluation & Explainability
-![Evaluation](./screenshots/evaluation.png)
 
 ## 📁 Project Structure
 
