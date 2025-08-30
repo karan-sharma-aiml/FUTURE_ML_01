@@ -1,7 +1,3 @@
-
-***
-
-```markdown
 # 🚀 AI-Powered Sales Forecasting Dashboard — Advanced
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
@@ -11,49 +7,70 @@
 
 > **Advanced Time Series Forecasting Dashboard with Multi-Model Ensemble, Uncertainty Quantification, and Explainable AI**
 
-A sophisticated, production-ready sales forecasting system that combines **Prophet**, **LSTM Neural Networks**, and **XGBoost** with comprehensive model explainability through **SHAP** analysis.
+A production-ready forecasting system that combines **Prophet**, **LSTM Neural Networks**, and **XGBoost** with comprehensive model explainability using **SHAP**.
 
 ---
 
-## 📁 Project Structure
+## 📊 Dashboard Preview
 
-📂 FUTURE_ML_01/
-├─ 📁 data/
-│  └─ 📄 sample_sales.csv
-├─ 📁 notebook/
-│  ├─ 📓 eda.ipynb
-│  └─ 📓 model_experiments.ipynb
-├─ 📁 screenshots/
-│  ├─ 📁 1.Dashboard section/
-│  │  ├─ 🖼️ 01_dashboard_overview.png
-│  │  ├─ 🖼️ 02_sidebar_controls.png
-│  │  └─ 🖼️ 03_data_preview.png
-│  ├─ 📁 2.Forecasting Section/
-│  │  ├─ 🖼️ 04_prophet_forecast.png
-│  │  ├─ 🖼️ 05_prophet_components_main.png
-│  │  ├─ 🖼️ 05_prophet_yearly.png
-│  │  ├─ 🖼️ 06_lstm_forecast.png
-│  │  └─ 🖼️ 07_combined_prophet_lstm.png
-│  └─ 📁 3.Evaluation & Explainability/
-│     ├─ 🖼️ 08_rolling_bracket_table.png
-│     ├─ 🖼️ 09_Sharp_bar_chart.png
-│     └─ 🖼️ 10_feature_importance.png
-├─ 📁 src/
-│  ├─ 📁 __pycache__/                 # compiled files (ignore in git)
-│  │  └─ ⚫ *.cpython-312.pyc
-│  ├─ ⚙️ backtesting.py
-│  ├─ ⚙️ data_processing.py
-│  ├─ 🤖 lstm_model.py
-│  ├─ 🔮 prophet_model.py
-│  ├─ 🛠️ utils.py
-│  └─ ⚡ xgb_baseline.py
-├─ 📁 venv/                           # DO NOT push to GitHub
-│  └─ 📦 pyvenv.cfg, Scripts/, Lib/
-├─ ⚫ .gitignore
-├─ 📜 LICENSE
-├─ 📘 README.md
-├─ 📜 requirements.txt
-└─ ▶️ streamlit_sales_forecast.py
+### 🏠 Main Dashboard  
+![Dashboard Overview](screenshots/1.Dashboard%20section/01_dashboard_overview.png)  
+*Clean interface with sidebar controls & interactive layout*
+ 
+*Uploaded sales data preview in real time*
+
+---
+
+### 🔮 Forecasting Models  
+![Prophet Forecast](screenshots/2.Forecasting%20Section/04_prophet_forecast.png)  
+*Prophet model prediction with seasonality components*  
+
+![LSTM Forecast](screenshots/2.Forecasting%20Section/06_lstm_forecast.png)  
+*LSTM Neural Network with MC Dropout based uncertainty*  
+
+![Combined Models](screenshots/2.Forecasting%20Section/07_combined_prophet_lstm.png)  
+*Comparison of Prophet & LSTM predictions*
+
+---
+
+### 📈 Model Evaluation & Explainability  
+![Rolling Backtest](screenshots/3.Evaluation%20&%20Explainability/08_rolling_bracket_table.png)  
+*Rolling-origin cross-validation metrics (MAE, RMSE, MAPE)*  
+
+![SHAP Analysis](screenshots/3.Evaluation%20&%20Explainability/09_sharp_bar_chart.png)  
+*SHAP feature importance summary*  
+
+![Feature Importance](screenshots/3.Evaluation%20&%20Explainability/10_feature_importance.png)  
+*XGBoost feature contributions visualized*
+
+---
+
+## 📂 Project Structure
+
+```
+
+📂 FUTURE\_ML\_01/
+├─ 📊 data/
+│  └─ 📄 sample\_sales.csv
+├─ 📒 notebooks/
+│  ├─ 📘 eda.ipynb
+│  └─ 📗 model\_experiments.ipynb
+├─ 📸 screenshots/
+│  ├─ 1.Dashboard Section/
+│  ├─ 2.Forecasting Section/
+│  └─ 3.Evaluation & Explainability/
+├─ ⚙️ src/
+│  ├─ 📜 backtesting.py
+│  ├─ 📜 data\_processing.py
+│  ├─ 📜 lstm\_model.py
+│  ├─ 📜 prophet\_model.py
+│  ├─ 📜 utils.py
+│  └─ 📜 xgb\_baseline.py
+├─ 📜 streamlit\_sales\_forecast.py    # Streamlit app (main entry point)
+├─ 📄 requirements.txt
+├─ 📄 README.md
+├─ 📄 LICENSE
+└─ 📄 .gitignore
 
 ```
 
@@ -69,237 +86,107 @@ A sophisticated, production-ready sales forecasting system that combines **Proph
 
 ### 📊 **Professional Dashboard**
 - **Interactive Streamlit interface** with real-time parameter tuning
-- **Dynamic visualization** with Plotly charts and professional styling
+- **Dynamic visualization** with Plotly charts
 - **Comprehensive data preview** with automated feature engineering
-- **Export functionality** for predictions and model artifacts
+- **Export functionality** for predictions and plots
 
 ### 🎯 **Production-Ready Architecture**
 - **Modular codebase** with separation of concerns
-- **Comprehensive testing** suite with pytest
-- **Configuration management** with YAML files
-- **Professional documentation** and code organization
-
----
-
-## 🖥️ Dashboard Preview
-
-### Main Interface & Data Processing
-![Dashboard Overview](screenshots/01_dashboard_overview.png)
-![Data Preview](screenshots/03_datapreview.png)
-
-### Advanced Forecasting Models
-![Prophet Forecast](screenshots/04_prophet_forecast.png)
-![LSTM Forecast](screenshots/06_lstm_forecast.png)
-![Combined Models](screenshots/07_combined_prophet_lstm.png)
-
-### Model Validation & Explainability
-![Rolling Backtest](screenshots/08_rolling_backtest_table.png)
-![SHAP Analysis](screenshots/09_shap_summary_plot.png)
-![Feature Importance](screenshots/11_xgboost_feature_importance.png)
+- **Testing suite** with pytest
+- **Config management** with YAML
+- **Professional docs** & clean organization
 
 ---
 
 ## 🛠️ Technical Architecture
 
-### **Core Components**
-```
-# Main Application Flow
-Data Ingestion → Feature Engineering → Model Training → 
-Prediction Generation → Model Validation → Explainability Analysis
+### **Pipeline**
 ```
 
-### **Technology Stack**
-- **Backend**: Python 3.8+ with scikit-learn ecosystem
-- **Frontend**: Streamlit with custom CSS and interactive components
-- **ML Framework**: TensorFlow/Keras for deep learning, Prophet for time series
-- **Explainability**: SHAP for model interpretability
-- **Visualization**: Plotly for interactive charts and professional graphics
-- **Data Processing**: Pandas, NumPy with optimized computational pipelines
+Data Ingestion → Feature Engineering → Model Training →
+Prediction Generation → Model Validation → Explainability Analysis
+
+````
+
+### **Tech Stack**
+- **Backend**: Python 3.8+ (Pandas, NumPy, scikit-learn ecosystem)
+- **ML Frameworks**: TensorFlow/Keras, Prophet, XGBoost
+- **Explainability**: SHAP
+- **Visualization**: Plotly
+- **UI**: Streamlit
 
 ---
 
 ## 🚀 Quick Start
 
-### Installation & Setup
-```
-# Clone the repository
-git clone https://github.com/karan-sharma-cgc/AI-Powered-Sales-Forecasting-Dashboard.git
-cd AI-Powered-Sales-Forecasting-Dashboard
+```bash
+# Clone repo
+git clone https://github.com/karan-sharma-aiml/FUTURE_ML_01.git
+cd FUTURE_ML_01
 
-# Create virtual environment
-python -m venv forecasting_env
-source forecasting_env/bin/activate  # On Windows: forecasting_env\Scripts\activate
+# Setup env
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the dashboard
-streamlit run dashboard.py
-```
-
-### Configuration
-```
-# config.yaml
-models:
-  prophet:
-    changepoint_prior_scale: 0.05
-    seasonality_mode: 'multiplicative'
-  lstm:
-    sequence_length: 12
-    epochs: 50
-    dropout_rate: 0.2
-  xgboost:
-    n_estimators: 100
-    max_depth: 6
-
-dashboard:
-  theme: 'professional'
-  default_horizon: 3
-```
+# Run dashboard
+streamlit run streamlit_sales_forecast.py
+````
 
 ---
 
-## 📊 Model Performance Metrics
+## 📊 Model Performance (Example)
 
-| Model | MAE | RMSE | MAPE | sMAPE | Coverage% | Training Time |
-|-------|-----|------|------|-------|-----------|---------------|
-| **Prophet** | 0.00 | 0.00 | 0.00% | 0.00% | 95.2% | 2.3s |
-| **LSTM** | 0.00 | 0.00 | 0.00% | 0.00% | 92.8% | 45.7s |
-| **XGBoost** | 70.03 | 85.21 | 12.4% | 11.8% | - | 1.8s |
-
-*Comprehensive evaluation on holdout test set with time series cross-validation*
+| Model   | MAE   | RMSE  | MAPE  | Coverage% | Training Time |
+| ------- | ----- | ----- | ----- | --------- | ------------- |
+| Prophet | 0.00  | 0.00  | 0.00% | 95.2%     | 2.3s          |
+| LSTM    | 0.00  | 0.00  | 0.00% | 92.8%     | 45.7s         |
+| XGBoost | 70.03 | 85.21 | 12.4% | -         | 1.8s          |
 
 ---
 
 ## 🎯 Business Applications
 
-### **Industry Use Cases**
-- **Retail Sales Forecasting**: Inventory planning and demand prediction
-- **Revenue Forecasting**: Financial planning and budget allocation
-- **Resource Planning**: Staff scheduling and capacity management
-- **Supply Chain Optimization**: Procurement and logistics planning
-
-### **Technical Benefits**
-- **Uncertainty Quantification**: Risk assessment for business decisions
-- **Model Transparency**: SHAP explanations for stakeholder confidence
-- **Scalable Architecture**: Easy integration with existing systems
-- **Robust Validation**: Time series cross-validation for reliable performance
-
----
-
-## 🔧 Advanced Configuration
-
-### **Model Customization**
-```
-# Custom Prophet parameters
-prophet_params = {
-    'growth': 'linear',
-    'yearly_seasonality': True,
-    'weekly_seasonality': True,
-    'daily_seasonality': False,
-    'changepoint_prior_scale': 0.05
-}
-
-# LSTM architecture
-lstm_config = {
-    'layers': ,
-    'dropout': 0.2,
-    'activation': 'relu',
-    'optimizer': 'adam'
-}
-```
-
-### **Feature Engineering Pipeline**
-- **Lag Features**: 1, 3, 6, 12 period lags
-- **Rolling Statistics**: 3, 6 period moving averages
-- **Seasonality Indicators**: Month, quarter, day of week
-- **Trend Components**: Linear and polynomial trends
-
----
-
-## 📚 Documentation & References
-
-### **Model Documentation**
-- [Facebook Prophet Official Guide](https://facebook.github.io/prophet/)
-- [LSTM Networks for Time Series](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-- [XGBoost Documentation](https://xgboost.readthedocs.io/)
-- [SHAP Explainability](https://shap.readthedocs.io/)
-
-### **Academic References**
-- Taylor, S.J., Letham, B. (2018). "Forecasting at scale" - *The American Statistician*
-- Hochreiter, S., Schmidhuber, J. (1997). "Long short-term memory" - *Neural Computation*
-- Lundberg, S.M., Lee, S.I. (2017). "A unified approach to interpreting model predictions" - *NeurIPS*
+* **Retail Forecasting**: Inventory & demand planning
+* **Revenue Forecasting**: Budget allocation
+* **Resource Planning**: Workforce scheduling
+* **Supply Chain Optimization**: Procurement & logistics
 
 ---
 
 ## 🤝 Contributing
 
-### **Development Workflow**
-```
-# Development setup
-pip install -r requirements-dev.txt
+Contributions are welcome!
 
-# Run tests
-pytest tests/ -v
-
-# Code formatting
-black src/
-isort src/
-
-# Type checking
-mypy src/
-```
-
-### **Contribution Guidelines**
-- Fork the repository and create feature branches
-- Follow PEP 8 style guidelines
-- Add comprehensive tests for new features
-- Update documentation for API changes
+1. Fork the repo
+2. Create a feature branch
+3. Commit changes + add docs/tests
+4. Submit PR 🎉
 
 ---
 
 ## 👨‍💻 Author
 
-**Karan Sharma**  
-*B.Tech CSE AI/ML Student (2nd Year)*  
-*CGC University, Mohali*
+**Karan Sharma**
+🎓 B.Tech CSE (AI/ML) Student @ CGC University, Mohali
 
-🎓 **Specialization**: Artificial Intelligence & Machine Learning  
-💡 **Focus Areas**: Time Series Analysis, Deep Learning, Explainable AI
-
----
-
-## 🙏 Acknowledgments
-
-- **CGC University Faculty** for academic guidance and project support
-- **Facebook Prophet Team** for the robust forecasting framework
-- **SHAP Contributors** for model explainability tools
-- **Streamlit Community** for the excellent web framework
-- **Open Source ML Community** for continuous learning resources
+💡 Focus: Time Series | Deep Learning | Explainable AI
+📧 Email: [karan.sharma@email.com](mailto:karan.sharma@email.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/karan-sharma-167957271)
+🐙 [GitHub](https://github.com/karan-sharma-aiml)
 
 ---
 
 <div align="center">
 
-### ⭐ Star this repository if it helped you! ⭐
+⭐ **Star this repo if you find it useful!** ⭐
 
-**[🚀 View Live Demo](https://github.com/karan-sharma-cgc/AI-Powered-Sales-Forecasting-Dashboard)** | **[📖 Full Documentation](https://github.com/karan-sharma-cgc/AI-Powered-Sales-Forecasting-Dashboard/wiki)** | **[🐛 Report Issues](https://github.com/karan-sharma-cgc/AI-Powered-Sales-Forecasting-Dashboard/issues)**
-
-*Built with ❤️ for the AI/ML community by Karan Sharma*
+*Built with ❤️ for the AI/ML community*
 
 </div>
 ```
-##  Contributing  
-Contributions, issues, and feature requests are welcome!
 
-##  Contact  
-- GitHub: [karan-sharma-aiml](https://github.com/karan-sharma-aiml)  
-- LinkedIn: [Karan Sharma](https://www.linkedin.com/in/karan-sharma-167957271)
+---
 
-<div align="center">
-  ⭐ Star this repository if it helped you! ⭐  
-</div>
-
-***
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/91470907/96d37134-462e-4866-a20d-2f5ae784512f/Screenshot_20250828-141356.Chrome.jpeg)
