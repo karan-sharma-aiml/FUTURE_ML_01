@@ -15,7 +15,8 @@ A production-ready forecasting system that combines **Prophet**, **LSTM Neural N
 
 ### 🏠 Main Dashboard  
 
- ![Dashboard Overview](./screenshots/1.Dashboard%20section/01_dashboard_overview.png)  
+![Dashboard Overview](./screenshots/1.Dashboard%20section/01_dashbard_overview.png)
+
 
 Uploaded sales data preview in real time
 
