@@ -45,7 +45,6 @@ Uploaded sales data preview in real time
 *XGBoost feature contributions visualized*
 
 ---
-
 ## 📂 Project Structure
 
 📂 FUTURE_ML_01/
@@ -60,22 +59,23 @@ Uploaded sales data preview in real time
 │  ├─ 📂 1.Dashboard Section/
 │  │  ├─ 🖼️ 01_dashboard_overview.png
 │  │  ├─ 🖼️ 02_sidebar_controls.png
+│  │  └─ 🖼️ 03_data_preview.png
 │  │
 │  ├─ 📂 2.Forecasting Section/
-│  │  ├─ 🖼️ 04_prophet_forecast.png
-│  │  ├─ 🖼️ 05_prophet_components_main.png
-│  │  ├─ 🖼️ 05_prophet_yearly.png
-│  │  ├─ 🖼️ 06_lstm_forecast.png
-│  │  └─ 🖼️ 07_combined_prophet_lstm.png
+│  │  ├─ 🔮 04_prophet_forecast.png
+│  │  ├─ 📅 05_prophet_components_main.png
+│  │  ├─ 📆 05_prophet_yearly.png
+│  │  ├─ 🤖 06_lstm_forecast.png
+│  │  └─ ⚡ 07_combined_prophet_lstm.png
 │  │
 │  └─ 📂 3.Evaluation & Explainability/
-│     ├─ 🖼️ 08_rolling_bracket_table.png
-│     ├─ 🖼️ 09_Sharp_bar_chart.png
-│     └─ 🖼️ 10_feature_importance.png
+│     ├─ 📋 08_rolling_bracket_table.png
+│     ├─ 📊 09_Sharp_bar_chart.png
+│     └─ 🌟 10_feature_importance.png
 │
 ├─ 📂 src/
 │  ├─ 📂 __pycache__/                 # compiled files (ignored in .gitignore)
-│  │  └─ *.cpython-312.pyc
+│  │  └─ 📝 *.cpython-312.pyc
 │  ├─ ⚙️ backtesting.py
 │  ├─ ⚙️ data_processing.py
 │  ├─ ⚙️ lstm_model.py
@@ -90,9 +90,8 @@ Uploaded sales data preview in real time
 ├─ 📜 LICENSE
 ├─ 📘 README.md
 ├─ 📦 requirements.txt
-└─ 🚀 streamlit_sales_forecast.py     # main app
+└─ 🌐 streamlit_sales_forecast.py
 
----
 
 ## 🌟 Key Features
 
