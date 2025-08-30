@@ -44,43 +44,57 @@ Uploaded sales data preview in real time
 ![Feature Importance](screenshots/3.Evaluation%20&%20Explainability/10_feature_importance.png)  
 *XGBoost feature contributions visualized*
 
-📁 FUTURE_ML_01/
-├─ 📁 data/
-│  └─ 📄 sample_sales.csv
-├─ 📁 notebook/
-│  ├─ 📄 eda.ipynb
-│  └─ 📄 model_experiments.ipynb
-├─ 📁 screenshots/
-│  ├─ 📁 1.Dashboard section/
-│  │  ├─ 📄 01_dashboard_overview.png
-│  │  ├─ 📄 02_sidebar_controls.png
-│  │  └─ 📄 03_data_preview.png
-│  ├─ 📁 2.Forecasting Section/
-│  │  ├─ 📄 04_prophet_forecast.png
-│  │  ├─ 📄 05_prophet_components_main.png
-│  │  ├─ 📄 05_prophet_yearly.png
-│  │  ├─ 📄 06_lstm_forecast.png
-│  │  └─ 📄 07_combined_prophet_lstm.png
-│  └─ 📁 3.Evaluation & Explainability/
-│     ├─ 📄 08_rolling_bracket_table.png
-│     ├─ 📄 09_Sharp_bar_chart.png
-│     └─ 📄 10_feature_importance.png
-├─ 📁 src/
-│  ├─ 📁 __pycache__/                 
-│  │  └─ 📄 *.cpython-312.pyc
-│  ├─ 📄 backtesting.py
-│  ├─ 📄 data_processing.py
-│  ├─ 📄 lstm_model.py
-│  ├─ 📄 prophet_model.py
-│  ├─ 📄 utils.py
-│  └─ 📄 xgb_baseline.py
-├─ 📁 venv/                          
-│  └─ 📄 pyvenv.cfg
-├─ 📄 .gitignore
-├─ 📄 LICENSE
-├─ 📄 README.md
-├─ 📄 requirements.txt
-└─ 📄 streamlit_sales_forecast.py
+📂 FUTURE_ML_02/
+├─ 📁 .vscode/ # VS Code configuration
+│ └─ 📄 settings.json
+├─ 📁 data/ # Dataset storage
+│ └─ 📁 raw/
+│ └─ 📄 telecom_churn.csv # Primary dataset
+├─ 📁 models/ # Trained ML models
+│ └─ 📄 xgboost_model.pkl # Production XGBoost model
+├─ 📁 notebooks/ # Jupyter analysis notebooks
+│ ├─ 📓 documentation.ipynb # Project walkthrough
+│ └─ 📓 experimentation.ipynb # EDA & model experiments
+├─ 📁 reports/ # Business reports & documentation
+│ ├─ 📁 figures/ # Report visualizations
+│ └─ 📄 final_report.md # Comprehensive analysis report
+├─ 📁 screenshots/ # Demo & proof-of-concept images
+│ ├─ 📁 api_predictions/ # API testing screenshots
+│ │ ├─ 🖼️ api_live_logs.jpg.png
+│ │ ├─ 🖼️ postman_prediction_0.jpg
+│ │ └─ 🖼️ postman_prediction_1.jpg
+│ ├─ 📁 static_dashboard/ # Matplotlib visualizations
+│ │ ├─ 🖼️ churn_distribution.jpg
+│ │ ├─ 🖼️ monthlycharges_vs_churn.jpg
+│ │ ├─ 🖼️ tenure_vs_churn.jpg
+│ │ └─ 🖼️ xgb_feature_importance.jpg
+│ └─ 📁 streamlit_dashboard/ # Interactive dashboard demos
+│ ├─ 🖼️ churn_distribution.jpg
+│ ├─ 🖼️ feature_importance.jpg
+│ ├─ 🖼️ home_host_page.jpg
+│ └─ 🖼️ monthly_charges_comparison.jpg
+├─ 📁 src/ # Source code modules
+│ ├─ 📁 api/ # REST API implementation
+│ │ ├─ 📄 init.py
+│ │ └─ 📄 main.py # Flask API endpoints
+│ ├─ 📁 churn_predictor/ # ML pipeline & components
+│ │ ├─ 📁 components/ # Modular ML components
+│ │ ├─ 📁 config/ # Configuration management
+│ │ ├─ 📁 pipeline/ # Training & prediction pipelines
+│ │ ├─ 📁 utils/ # Utility functions
+│ │ ├─ 📄 dashboard.py # Static visualizations
+│ │ ├─ 📄 streamlit_dashboard.py # Interactive dashboard
+│ │ ├─ 📄 data_preprocessing.py # Data cleaning & transformation
+│ │ ├─ 📄 evaluation.py # Model evaluation metrics
+│ │ ├─ 📄 explainability.py # Model interpretability
+│ │ ├─ 📄 feature_engineering.py # Feature creation & selection
+│ │ └─ 📄 model.py # ML model definitions
+│ └─ 📁 tests/ # Unit & integration tests
+│ └─ 📄 conftest.py
+├─ 📄 .gitignore # Git exclusions
+├─ 📄 README.md # Project documentation (this file)
+├─ 📄 requirements.txt # Python dependencies
+└─ 📄 setup.py # Package installation script
 
 
 ✅ Features:
