@@ -84,7 +84,6 @@ Uploaded sales data preview in real time
 ├─ 📦 requirements.txt
 └─ 🌐 streamlit_sales_forecast.py
 
-
 ## 🌟 Key Features
 
 ### 🔬 **Advanced ML Models**
