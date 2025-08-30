@@ -98,6 +98,13 @@ Uploaded sales data preview in real time
 
 
 ## 🌟 Key Features
+- Upload custom sales CSV files (time series with date and sales columns)  
+- Automatic feature engineering: lag features, rolling averages, and seasonality indicators  
+- Multi-model sales forecasting using Prophet, LSTM (with MC dropout uncertainty), and XGBoost  
+- Visualize model forecasts with confidence intervals and trend/seasonality decomposition  
+- Rolling-origin cross-validation with performance metrics such as MAE, RMSE, MAPE, and coverage  
+- Explainability using SHAP for model interpretability  
+- Interactive Streamlit dashboard with real-time parameter tuning
 
 ### 🔬 **Advanced ML Models**
 - **Facebook Prophet** with automatic seasonality detection and uncertainty intervals
