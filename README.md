@@ -18,34 +18,43 @@ A sophisticated, production-ready sales forecasting system that combines **Proph
 ## 📁 Project Structure
 
 📂 FUTURE_ML_01/
-├─ 📁 app/
-│  └─ 📄 streamlit_sales_forecast.py
 ├─ 📁 data/
 │  └─ 📄 sample_sales.csv
-├─ 📁 notebooks/
+├─ 📁 notebook/
 │  ├─ 📓 eda.ipynb
 │  └─ 📓 model_experiments.ipynb
-├─ 📁 docs/
-│  └─ 📁 screenshots/
-│     ├─ 📁 1-dashboard/
-│     │  ├─ 🖼 01_dashboard_overview.png
-│     │  └─ 🖼 03_data_preview.png
-│     ├─ 📁 2-forecasting/
-│     └─ 📁 3-eval-explainability/
+├─ 📁 screenshots/
+│  ├─ 📁 1.Dashboard section/
+│  │  ├─ 🖼️ 01_dashboard_overview.png
+│  │  ├─ 🖼️ 02_sidebar_controls.png
+│  │  └─ 🖼️ 03_data_preview.png
+│  ├─ 📁 2.Forecasting Section/
+│  │  ├─ 🖼️ 04_prophet_forecast.png
+│  │  ├─ 🖼️ 05_prophet_components_main.png
+│  │  ├─ 🖼️ 05_prophet_yearly.png
+│  │  ├─ 🖼️ 06_lstm_forecast.png
+│  │  └─ 🖼️ 07_combined_prophet_lstm.png
+│  └─ 📁 3.Evaluation & Explainability/
+│     ├─ 🖼️ 08_rolling_bracket_table.png
+│     ├─ 🖼️ 09_Sharp_bar_chart.png
+│     └─ 🖼️ 10_feature_importance.png
 ├─ 📁 src/
-│  ├─ ⚙ backtesting.py
-│  ├─ ⚙ data_processing.py
+│  ├─ 📁 __pycache__/                 # compiled files (ignore in git)
+│  │  └─ ⚫ *.cpython-312.pyc
+│  ├─ ⚙️ backtesting.py
+│  ├─ ⚙️ data_processing.py
 │  ├─ 🤖 lstm_model.py
 │  ├─ 🔮 prophet_model.py
-│  ├─ 🛠 utils.py
+│  ├─ 🛠️ utils.py
 │  └─ ⚡ xgb_baseline.py
-├─ 📁 models/                         # saved model artifacts (keep out of git or add small samples)
+├─ 📁 venv/                           # DO NOT push to GitHub
+│  └─ 📦 pyvenv.cfg, Scripts/, Lib/
 ├─ ⚫ .gitignore
-├─ 📜 requirements.txt
+├─ 📜 LICENSE
 ├─ 📘 README.md
-└─ 📜 LICENSE
+├─ 📜 requirements.txt
+└─ ▶️ streamlit_sales_forecast.py
 
-│
 ```
 
 ---
