@@ -38,8 +38,7 @@ Uploaded sales data preview in real time
 *Rolling-origin cross-validation metrics (MAE, RMSE, MAPE)*  
 
 ###  SHAP Bar Chart  
-![Feature Importance](./screenshots/3.Evaluation%20%26%20Explainability/10_feature_importance.png)
-
+![SHAP Bar Chart](./screenshots/3.Evaluation%20%26%20Explainability/09_Sharp_bar_chart.png)
 
 ### Feature Importance
 ![Feature Importance](screenshots/3.Evaluation%20&%20Explainability/10_feature_importance.png)  
