@@ -44,53 +44,46 @@ Uploaded sales data preview in real time
 ![Feature Importance](screenshots/3.Evaluation%20&%20Explainability/10_feature_importance.png)  
 *XGBoost feature contributions visualized*
 
-## 📂 Project Structure - FUTURE_ML_01
+## 📂 Project Structure
 
 📂 FUTURE_ML_01/ - Root project folder
+
 ├─ 📂 data/ - Contains dataset files
 │  └─ 📄 sample_sales.csv - Sample sales dataset
+
 ├─ 📂 notebook/ - Jupyter notebooks for analysis
 │  ├─ 📓 eda.ipynb - Exploratory Data Analysis
 │  └─ 📓 model_experiments.ipynb - Model experimentation
+
 ├─ 📂 screenshots/ - Screenshots of dashboard and results
-│  ├─ 📂 1.Dashboard Section/ - Dashboard UI images
+│  ├─ 📂 1.Dashboard Section/ - Dashboard UI image
 │  │  ├─ 🖼️ 01_dashboard_overview.png - Overview of dashboard
 │  │  ├─ 🖼️ 02_sidebar_controls.png - Sidebar controls screenshot
 │  │  └─ 🖼️ 03_data_preview.png - Sample data preview
+
 │  ├─ 📂 2.Forecasting Section/ - Forecasting model outputs
 │  │  ├─ 🔮 04_prophet_forecast.png - Prophet forecast chart
 │  │  ├─ 📅 05_prophet_components_main.png - Prophet main components
 │  │  ├─ 📆 05_prophet_yearly.png - Yearly trend components
 │  │  ├─ 🤖 06_lstm_forecast.png - LSTM forecast chart
 │  │  └─ ⚡ 07_combined_prophet_lstm.png - Combined forecast
+
 │  └─ 📂 3.Evaluation & Explainability/ - Evaluation visuals
-
 │     ├─ 📋 08_rolling_bracket_table.png - Rolling bracket table
-
 │     ├─ 📊 09_Sharp_bar_chart.png - Sharpe ratio chart
-
 │     └─ 🌟 10_feature_importance.png - Feature importance chart
 
 ├─ 📂 src/ - Source code for models and utilities
-
 │  ├─ 📂 __pycache__/ - Compiled Python files
-
 │  │  └─ 📝 *.cpython-312.pyc
-
 │  ├─ ⚙️ backtesting.py - Backtesting logic
-
 │  ├─ ⚙️ data_processing.py - Data cleaning and preprocessing
-
 │  ├─ ⚙️ lstm_model.py - LSTM model implementation
-
 │  ├─ ⚙️ prophet_model.py - Prophet model implementation
-
 │  ├─ ⚙️ utils.py - Utility functions
-
 │  └─ ⚙️ xgb_baseline.py - XGBoost baseline model
 
 ├─ 📂 venv/ - Virtual environment (DO NOT push to GitHub
-
 │  └─ pyvenv.cfg, Scripts/, Lib/
 
 ├─ ⚙️ .gitignore - Git ignore file
