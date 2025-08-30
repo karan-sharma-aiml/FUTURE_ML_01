@@ -14,10 +14,10 @@ A production-ready forecasting system that combines **Prophet**, **LSTM Neural N
 ## 📊 Dashboard Preview
 
 ### 🏠 Main Dashboard  
-![Dashboard Overview](screenshots/1.Dashboard%20section/01_dashboard_overview.png)  
-*Clean interface with sidebar controls & interactive layout*
- 
-*Uploaded sales data preview in real time*
+
+ ![Dashboard Overview](./screenshots/1.Dashboard%20section/01_dashboard_overview.png)  
+
+Uploaded sales data preview in real time
 
 ---
 
@@ -37,9 +37,10 @@ A production-ready forecasting system that combines **Prophet**, **LSTM Neural N
 ![Rolling Backtest](screenshots/3.Evaluation%20&%20Explainability/08_rolling_bracket_table.png)  
 *Rolling-origin cross-validation metrics (MAE, RMSE, MAPE)*  
 
-![SHAP Analysis](screenshots/3.Evaluation%20&%20Explainability/09_sharp_bar_chart.png)  
-*SHAP feature importance summary*  
+###  SHAP Bar Chart  
+![SHAP Bar Chart](./screenshots/3.Evaluation%20&%20Explainability/09_sharp_bar_chart.png)  
 
+### Feature Importance
 ![Feature Importance](screenshots/3.Evaluation%20&%20Explainability/10_feature_importance.png)  
 *XGBoost feature contributions visualized*
 
@@ -47,32 +48,49 @@ A production-ready forecasting system that combines **Prophet**, **LSTM Neural N
 
 ## 📂 Project Structure
 
-```
-
-📂 FUTURE\_ML\_01/
-├─ 📊 data/
-│  └─ 📄 sample\_sales.csv
-├─ 📒 notebooks/
-│  ├─ 📘 eda.ipynb
-│  └─ 📗 model\_experiments.ipynb
-├─ 📸 screenshots/
-│  ├─ 1.Dashboard Section/
-│  ├─ 2.Forecasting Section/
-│  └─ 3.Evaluation & Explainability/
-├─ ⚙️ src/
-│  ├─ 📜 backtesting.py
-│  ├─ 📜 data\_processing.py
-│  ├─ 📜 lstm\_model.py
-│  ├─ 📜 prophet\_model.py
-│  ├─ 📜 utils.py
-│  └─ 📜 xgb\_baseline.py
-├─ 📜 streamlit\_sales\_forecast.py    # Streamlit app (main entry point)
-├─ 📄 requirements.txt
-├─ 📄 README.md
-├─ 📄 LICENSE
-└─ 📄 .gitignore
-
-```
+📂 FUTURE_ML_01/
+├─ 📂 data/
+│  └─ 📄 sample_sales.csv
+│
+├─ 📂 notebook/
+│  ├─ 📓 eda.ipynb
+│  └─ 📓 model_experiments.ipynb
+│
+├─ 📂 screenshots/
+│  ├─ 📂 1.Dashboard Section/
+│  │  ├─ 🖼️ 01_dashboard_overview.png
+│  │  ├─ 🖼️ 02_sidebar_controls.png
+│  │
+│  ├─ 📂 2.Forecasting Section/
+│  │  ├─ 🖼️ 04_prophet_forecast.png
+│  │  ├─ 🖼️ 05_prophet_components_main.png
+│  │  ├─ 🖼️ 05_prophet_yearly.png
+│  │  ├─ 🖼️ 06_lstm_forecast.png
+│  │  └─ 🖼️ 07_combined_prophet_lstm.png
+│  │
+│  └─ 📂 3.Evaluation & Explainability/
+│     ├─ 🖼️ 08_rolling_bracket_table.png
+│     ├─ 🖼️ 09_Sharp_bar_chart.png
+│     └─ 🖼️ 10_feature_importance.png
+│
+├─ 📂 src/
+│  ├─ 📂 __pycache__/                 # compiled files (ignored in .gitignore)
+│  │  └─ *.cpython-312.pyc
+│  ├─ ⚙️ backtesting.py
+│  ├─ ⚙️ data_processing.py
+│  ├─ ⚙️ lstm_model.py
+│  ├─ ⚙️ prophet_model.py
+│  ├─ ⚙️ utils.py
+│  └─ ⚙️ xgb_baseline.py
+│
+├─ 📂 venv/                           # DO NOT push to GitHub
+│  └─ pyvenv.cfg, Scripts/, Lib/
+│
+├─ ⚙️ .gitignore
+├─ 📜 LICENSE
+├─ 📘 README.md
+├─ 📦 requirements.txt
+└─ 🚀 streamlit_sales_forecast.py     # main app
 
 ---
 
