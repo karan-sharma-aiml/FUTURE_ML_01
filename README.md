@@ -44,40 +44,40 @@ Uploaded sales data preview in real time
 ![Feature Importance](screenshots/3.Evaluation%20&%20Explainability/10_feature_importance.png)  
 *XGBoost feature contributions visualized*
 
-## 📂 Project Structure
+## 📂 Project Structure - FUTURE_ML_01
 
 📂 FUTURE_ML_01/
 ├─ 📂 data/
-│ └─ 📄 sample_sales.csv
+│  └─ 📄 sample_sales.csv
 ├─ 📂 notebook/
-│ ├─ 📓 eda.ipynb
-│ └─ 📓 model_experiments.ipynb
+│  ├─ 📓 eda.ipynb
+│  └─ 📓 model_experiments.ipynb
 ├─ 📂 screenshots/
-│ ├─ 📂 1.Dashboard Section/
-│ │ ├─ 🖼️ 01_dashboard_overview.png
-│ │ ├─ 🖼️ 02_sidebar_controls.png
-│ │ └─ 🖼️ 03_data_preview.png
-│ ├─ 📂 2.Forecasting Section/
-│ │ ├─ 🔮 04_prophet_forecast.png
-│ │ ├─ 📅 05_prophet_components_main.png
-│ │ ├─ 📆 05_prophet_yearly.png
-│ │ ├─ 🤖 06_lstm_forecast.png
-│ │ └─ ⚡ 07_combined_prophet_lstm.png
-│ └─ 📂 3.Evaluation & Explainability/
-│ ├─ 📋 08_rolling_bracket_table.png
-│ ├─ 📊 09_Sharp_bar_chart.png
-│ └─ 🌟 10_feature_importance.png
+│  ├─ 📂 1.Dashboard Section/
+│  │  ├─ 🖼️ 01_dashboard_overview.png
+│  │  ├─ 🖼️ 02_sidebar_controls.png
+│  │  └─ 🖼️ 03_data_preview.png
+│  ├─ 📂 2.Forecasting Section/
+│  │  ├─ 🔮 04_prophet_forecast.png
+│  │  ├─ 📅 05_prophet_components_main.png
+│  │  ├─ 📆 05_prophet_yearly.png
+│  │  ├─ 🤖 06_lstm_forecast.png
+│  │  └─ ⚡ 07_combined_prophet_lstm.png
+│  └─ 📂 3.Evaluation & Explainability/
+│     ├─ 📋 08_rolling_bracket_table.png
+│     ├─ 📊 09_Sharp_bar_chart.png
+│     └─ 🌟 10_feature_importance.png
 ├─ 📂 src/
-│ ├─ 📂 pycache/
-│ │ └─ 📝 *.cpython-312.pyc
-│ ├─ ⚙️ backtesting.py
-│ ├─ ⚙️ data_processing.py
-│ ├─ ⚙️ lstm_model.py
-│ ├─ ⚙️ prophet_model.py
-│ ├─ ⚙️ utils.py
-│ └─ ⚙️ xgb_baseline.py
+│  ├─ 📂 __pycache__/
+│  │  └─ 📝 *.cpython-312.pyc
+│  ├─ ⚙️ backtesting.py
+│  ├─ ⚙️ data_processing.py
+│  ├─ ⚙️ lstm_model.py
+│  ├─ ⚙️ prophet_model.py
+│  ├─ ⚙️ utils.py
+│  └─ ⚙️ xgb_baseline.py
 ├─ 📂 venv/
-│ └─ pyvenv.cfg, Scripts/, Lib/
+│  └─ pyvenv.cfg, Scripts/, Lib/
 ├─ ⚙️ .gitignore
 ├─ 📜 LICENSE
 ├─ 📘 README.md
