@@ -44,50 +44,6 @@ Uploaded sales data preview in real time
 ![Feature Importance](screenshots/3.Evaluation%20&%20Explainability/10_feature_importance.png)  
 *XGBoost feature contributions visualized*
 
----
-You said:
-FUTURE_ML_01/
-├─ data/
-│  └─ sample_sales.csv
-├─ notebook/
-│  ├─ eda.ipynb
-│  └─ model_experiments.ipynb
-├─ screenshots/
-│  ├─ 1.Dashboard section/
-│  │  ├─ 01_dashboard_overview.png
-│  │  ├─ 02_sidebar_controls.png
-│  │  └─ 03_data_preview.png
-│  ├─ 2.Forecasting Section/
-│  │  ├─ 04_prophet_forecast.png
-│  │  ├─ 05_prophet_components_main.png
-│  │  ├─ 05_prophet_yearly.png
-│  │  ├─ 06_lstm_forecast.png
-│  │  └─ 07_combined_prophet_lstm.png
-│  └─ 3.Evaluation & Explainability/
-│     ├─ 08_rolling_bracket_table.png
-│     ├─ 09_Sharp_bar_chart.png
-│     └─ 10_feature_importance.png
-├─ src/
-│  ├─ __pycache__/                 # compiled files shown in image
-│  │  └─ *.cpython-312.pyc
-│  ├─ backtesting.py
-│  ├─ data_processing.py
-│  ├─ lstm_model.py
-│  ├─ prophet_model.py
-│  ├─ utils.py
-│  └─ xgb_baseline.py
-├─ venv/                           # visible in image (DO NOT push)
-│  └─ pyvenv.cfg, Scripts/, Lib/
-├─ .gitignore
-├─ LICENSE
-├─ README.md
-├─ requirements.txt
-└─ streamlit_sales_forecast.py     # at repo root (visible)
-Bhai iss structure me folder aaur emoji daal de aaur folder readme.md me dalna h rows me nhi jani chahiye straight honi chahiye 
-ChatGPT said:
-
-Perfect! Main tumhare folder structure ko straight, emoji-enhanced format me ready kar deta hoon jo tum README.md me directly copy-paste kar sakte ho. Yeh raha:
-
 📁 FUTURE_ML_01/
 ├─ 📁 data/
 │  └─ 📄 sample_sales.csv
