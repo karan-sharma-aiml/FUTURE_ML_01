@@ -17,51 +17,35 @@ A sophisticated, production-ready sales forecasting system that combines **Proph
 
 ## 📁 Project Structure
 
-```
-AI-Powered-Sales-Forecasting-Dashboard/
-├── 📊 data/
-│   ├── sample_sales.csv           # Sample dataset for demonstration
-│   ├── processed/                 # Processed data files
-│   └── external/                  # External data sources
-├── 🖼️ screenshots/
-│   ├── 01_dashboard_overview.png  # Main dashboard interface
-/   /---02_sidebar_controls.png
-│   ├── 03_datapreview.png        # Data preview and engineering
-│   ├── 04_prophet_forecast.png    # Prophet forecasting results
-│   ├── 06_lstm_forecast.png       # LSTM neural network predictions
-│   ├── 07_combined_prophet_lstm.png # Model comparison
-│   ├── 08_rolling_backtest_table.png # Cross-validation results
-│   ├── 09_shap_summary_plot.png   # SHAP explainability analysis
-│   └── 10_xgboost_feature_importance.png # XGBoost + SHAP
-├── 🔧 src/
-│   ├── models/
-│   │   ├── prophet_model.py       # Facebook Prophet implementation
-│   │   ├── lstm_model.py          # LSTM with Monte Carlo Dropout
-│   │   ├── xgboost_model.py       # XGBoost baseline model
-│   │   └── ensemble.py            # Model ensemble methods
-│   ├── utils/
-│   │   ├── data_preprocessing.py  # Data cleaning and feature engineering
-│   │   ├── evaluation.py          # Model evaluation metrics
-│   │   ├── visualization.py       # Plotting and chart utilities
-│   │   └── config.py              # Configuration parameters
-│   └── dashboard/
-│       ├── components/            # Streamlit dashboard components
-│       ├── styles/                # CSS styling files
-│       └── layouts.py             # Dashboard layout management
-├── 📋 requirements.txt            # Python dependencies
-├── 🚀 dashboard.py               # Main Streamlit application
-├── 🔍 config.yaml               # Configuration settings
-├── 📖 README.md                 # Project documentation
-├── 📄 LICENSE                   # MIT License
-├── 🧪 tests/
-│   ├── test_models.py           # Model unit tests
-│   ├── test_utils.py            # Utility function tests
-│   └── test_dashboard.py        # Dashboard functionality tests
-└── 📊 notebooks/
-    ├── 01_data_exploration.ipynb    # Exploratory Data Analysis
-    ├── 02_model_development.ipynb   # Model development process
-    ├── 03_model_comparison.ipynb    # Comprehensive model evaluation
-    └── 04_advanced_analysis.ipynb   # Advanced forecasting techniques
+📂 FUTURE_ML_01/
+├─ 📁 app/
+│  └─ 📄 streamlit_sales_forecast.py
+├─ 📁 data/
+│  └─ 📄 sample_sales.csv
+├─ 📁 notebooks/
+│  ├─ 📓 eda.ipynb
+│  └─ 📓 model_experiments.ipynb
+├─ 📁 docs/
+│  └─ 📁 screenshots/
+│     ├─ 📁 1-dashboard/
+│     │  ├─ 🖼 01_dashboard_overview.png
+│     │  └─ 🖼 03_data_preview.png
+│     ├─ 📁 2-forecasting/
+│     └─ 📁 3-eval-explainability/
+├─ 📁 src/
+│  ├─ ⚙ backtesting.py
+│  ├─ ⚙ data_processing.py
+│  ├─ 🤖 lstm_model.py
+│  ├─ 🔮 prophet_model.py
+│  ├─ 🛠 utils.py
+│  └─ ⚡ xgb_baseline.py
+├─ 📁 models/                         # saved model artifacts (keep out of git or add small samples)
+├─ ⚫ .gitignore
+├─ 📜 requirements.txt
+├─ 📘 README.md
+└─ 📜 LICENSE
+
+│
 ```
 
 ---
