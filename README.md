@@ -40,7 +40,6 @@ Uploaded sales data preview in real time
 ###  SHAP Bar Chart  
 ![SHAP Bar Chart](./screenshots/3.Evaluation%20%26%20Explainability/09_sharp_bar_chart.png)
 
-
 ### Feature Importance
 ![Feature Importance](screenshots/3.Evaluation%20&%20Explainability/10_feature_importance.png)  
 *XGBoost feature contributions visualized*
