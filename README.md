@@ -64,24 +64,43 @@ Uploaded sales data preview in real time
 │  │  ├─ 🤖 06_lstm_forecast.png - LSTM forecast chart
 │  │  └─ ⚡ 07_combined_prophet_lstm.png - Combined forecast
 │  └─ 📂 3.Evaluation & Explainability/ - Evaluation visuals
+
 │     ├─ 📋 08_rolling_bracket_table.png - Rolling bracket table
+
 │     ├─ 📊 09_Sharp_bar_chart.png - Sharpe ratio chart
+
 │     └─ 🌟 10_feature_importance.png - Feature importance chart
+
 ├─ 📂 src/ - Source code for models and utilities
+
 │  ├─ 📂 __pycache__/ - Compiled Python files
+
 │  │  └─ 📝 *.cpython-312.pyc
+
 │  ├─ ⚙️ backtesting.py - Backtesting logic
+
 │  ├─ ⚙️ data_processing.py - Data cleaning and preprocessing
+
 │  ├─ ⚙️ lstm_model.py - LSTM model implementation
+
 │  ├─ ⚙️ prophet_model.py - Prophet model implementation
+
 │  ├─ ⚙️ utils.py - Utility functions
+
 │  └─ ⚙️ xgb_baseline.py - XGBoost baseline model
-├─ 📂 venv/ - Virtual environment (DO NOT push to GitHub)
+
+├─ 📂 venv/ - Virtual environment (DO NOT push to GitHub
+
 │  └─ pyvenv.cfg, Scripts/, Lib/
+
 ├─ ⚙️ .gitignore - Git ignore file
+
 ├─ 📜 LICENSE - License file
+
 ├─ 📘 README.md - Project documentation
+
 ├─ 📦 requirements.txt - Python dependencies
+
 └─ 🌐 streamlit_sales_forecast.py - Main Streamlit app
 
 
