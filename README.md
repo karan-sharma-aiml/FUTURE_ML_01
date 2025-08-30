@@ -44,8 +44,7 @@ Uploaded sales data preview in real time
 ![Feature Importance](screenshots/3.Evaluation%20&%20Explainability/10_feature_importance.png)  
 *XGBoost feature contributions visualized*
 
-## 📂 Project Structure - FUTURE_ML_01
-
+## 📂 Project Structure
 
 📂 FUTURE_ML_01/
 ├─ 📂 data/
@@ -69,7 +68,7 @@ Uploaded sales data preview in real time
 │ ├─ 📊 09_Sharp_bar_chart.png
 │ └─ 🌟 10_feature_importance.png
 ├─ 📂 src/
-│ ├─ 📂 pycache/ # compiled files (ignored in .gitignore)
+│ ├─ 📂 pycache/
 │ │ └─ 📝 *.cpython-312.pyc
 │ ├─ ⚙️ backtesting.py
 │ ├─ ⚙️ data_processing.py
@@ -77,14 +76,13 @@ Uploaded sales data preview in real time
 │ ├─ ⚙️ prophet_model.py
 │ ├─ ⚙️ utils.py
 │ └─ ⚙️ xgb_baseline.py
-├─ 📂 venv/ # DO NOT push to GitHub
+├─ 📂 venv/
 │ └─ pyvenv.cfg, Scripts/, Lib/
 ├─ ⚙️ .gitignore
 ├─ 📜 LICENSE
 ├─ 📘 README.md
 ├─ 📦 requirements.txt
 └─ 🌐 streamlit_sales_forecast.py
-
 
 
 ## 🌟 Key Features
